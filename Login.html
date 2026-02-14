@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <table border="0" width="100%"  align="center">
+            <tr>
+                <td align="center"> <a href="index.html"><img src="Imagens/8DRbfb.png" alt="logo" width="40%" height="80" ></a></td>
+                <td align="right">
+                    <a href="index.html">Home|</a>
+                    <a href="paginaJogos.html">pagina de jogos|</a>
+                    <a href="Tabela_jogos.html">Tabela de jogos|</a>
+                    <a href="Login.html">Login|</a>
+            </td>
+            </tr><hr>
+    <table border="0" width="100%"> 
+        <tr align="center">
+            <td>
+            <h2> Login de usuário</h2>
+            
+            <form>
+                <label for="campo-login">Login:</label><br>
+                <input type="text" id="campo-login" name="login"><br>
+                <label for="campo-senha">Senha:</label><br>
+                <input type="password" id="campo-senha" name="senha"><br>
+                <input type="submit" value="enviar">
+            </form>
+            <hr></td>
+        </tr> <hr>
+        <tr align="center">
+            <td>
+            <form>
+                <h2>Esqueci minha senha</h2>
+                <label for="campo-email">Email:</label><br>
+                <input type="email" id="campo-email" name="email"><br>
+                <input type="submit" value="enviar">
+            </form>
+            <hr></td>
+
+        <tr align="center">
+            <td>
+            <form>
+                <h2>Cadastre-se</h2>
+                <label for="campo-nome">Nome</label><br>
+                <input type="text" id="campo-nome" name="nome"><br>
+
+                <label for="campo-sexo">Sexo:</label><br>
+                <input type="radio" id="sexo-masculino" name="sexo" value="masculino">
+                <label for="sexo-masculino">Masculino</label><br>
+                <input type="radio" id="sexo-feminino" name="sexo" value="feminino">
+                <label for="sexo-feminino">Feminino</label><br>
+
+                <label for="campo-interesses">Interesses:</label><br>
+                <input type="checkbox" id="campo-interesses"> futebol<br>
+                <input type="checkbox" id="campo-interesses"> basquete<br>
+
+                <label for="campo-estado">Estado:</label><br>
+                <select id="campo-estado" name="Estado">
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>PR</option>
+                    <option>SC</option>
+                </select><br>
+
+                <label for="campo-observacao">Observação</label><br>
+                <textarea id="campo-observacao"></textarea><br>
+
+                <label for="campo-email">Email</label><br>
+                <input type="email" id="campo-email" name="email"><br>
+
+                <label for="campo-senha">Senha</label><br>
+                <input type="password" id="campo-senha" name="senha"><br>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+            <hr></td>
+        </tr>
+    </table>
+</body>
+</html>
